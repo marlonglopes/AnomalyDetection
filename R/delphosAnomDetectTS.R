@@ -179,7 +179,7 @@ delphos_detect_anoms <- function(data, k = 0.49, alpha = 0.05, num_obs_per_perio
 }
 
 
-delphos_anomalyDetectionTs <- function(x, max_anoms = 0.10, direction = 'pos',
+  DelphosAnomalyDetectionTs <- function(x, max_anoms = 0.10, direction = 'pos',
                                alpha = 0.05, only_last = NULL, threshold = 'None',
                                e_value = FALSE, longterm = FALSE, piecewise_median_period_weeks = 2, plot = FALSE,
                                y_log = FALSE, xlabel = '', ylabel = 'count',
